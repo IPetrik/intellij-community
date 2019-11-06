@@ -9,6 +9,8 @@
     <lang.syntaxHighlighterFactory language="ReST"
                                    implementationClass="com.jetbrains.rest.RestHighlighterFactory"/>
     <lang.parserDefinition language="ReST" implementationClass="com.jetbrains.rest.parsing.RestParserDefinition"/>
+    <codeStyleSettingsProvider implementation="com.jetbrains.rest.formatter.RestCodeStyleSettingsProvider"/>
+    <langCodeStyleSettingsProvider implementation="com.jetbrains.rest.formatter.RestLanguageCodeStyleSettingsProvider"/>
     <colorSettingsPage implementation="com.jetbrains.rest.RestColorsPage"/>
 
     <completion.contributor language="ReST" implementationClass="com.jetbrains.rest.completion.DirectiveCompletionContributor"/>
